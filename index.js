@@ -8,6 +8,7 @@ const app = express();
 
 app.use(bodyPaser.json());
 
+//Listen for requests
 app.listen(CONFIG.port, ()=> {
     logger.log('info', `now listening for requests on Port ${CONFIG.port}`)
 })
