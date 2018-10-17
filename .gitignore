@@ -45,4 +45,5 @@ Thumbs.db
 # folders #
 ######################
 node_modules/
+config/
 
